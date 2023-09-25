@@ -1,0 +1,39 @@
+--------------------------------------------------------------
+REPOSITÓRIO LOCAL E REMOTO:
+apó fazer qualquer mudança dentro do repositório,
+para mantermos ele atualizado, vamos até o github
+desktop, e realizamos um commit para atualizar o 
+repositório local, colocando um título e uma 
+descrição(opcional).
+--------------------------------------------------------------
+Após isso, para atualizar o repositório remoto, 
+bastar clicar em "Push to origin"
+--------------------------------------------------------------
+Para criar um repositório novo, vamos em
+ File --> New Repository
+
+Novamente, o local do repositório "Local path" selecionamos
+até a pasta que guarda o repositório, por exemplo o 
+repositório de html:
+
+C:\Users\dl652\Documents\estudos
+
+Não colocamos a pasta do repositório pois da erro, ela já é
+selecionada na hora de por o nome, que deve ser igual ao 
+nome do arquivo
+
+License colocamos MIT
+
+após isso clicamos em "Publish repository"
+
+/*Caso o arquivo não exista, será criado uma nova pasta/*
+--------------------------------------------------------------
+No repositório dentro do site do github, podemos ir 
+em settings e tanto trocar o repositório de público 
+para privado, arquivar e deletar o repositório
+
+Para apagar o repositório local vamos dentro do github
+desktop
+
+Repository -> Remove
+--------------------------------------------------------------

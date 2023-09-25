@@ -1,0 +1,30 @@
+PRIMEIRO REPOSITÓRIO:
+Vamos abrir o Github Desktop,
+clicar em "Create a New Repository on your hard drive",
+o nome do repositório deve ser o mesmo da pasta aonde
+está os arquivos, para não dar erro, colocamos uma 
+descrição.
+
+Após isso selecionamos o Local Path, que é o endereço
+aonde está guardado os arquivos, como nós ja selecionamos
+a pasta dos arquivos na hora de colocar o nome, aqui o 
+endereço vai apenas até aonde a pasta destinada está 
+guardada, por exemplo: 
+
+C:\Users\dl652\Documents\estudos
+
+*NÃO COLOCAMOS O /html-css
+
+Marcamos a opção de inicializar com README
+
+"Git ignore" aqui selecionamos qual é a linguagem
+em que vamos programar, isso faz o programa 
+ignorar certos arquivos
+
+"License" selecionamos MIT
+
+Para finalizar clicamos em Create repository
+-------------------------------------------------
+Para tornar o repositório seja público e remoto
+selecionamos o repositório dentro do github 
+desktop e clicamos em "Publish Repository"
