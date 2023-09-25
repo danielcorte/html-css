@@ -1,0 +1,25 @@
+-------------------------------------------------------------
+HOSPEDANDO SITE GRATUITAMENTE COM GITHUB PAGES:
+
+Vamos abrir o repositório do site que desejamos
+colocar no ar
+
+clicamos em Settings
+
+Depois em Pages na coluna lateral
+
+Depois em branch selecionamos "main"
+
+E depois a pasta selecionamos "root"
+
+pronto, o site está no ar
+-------------------------------------------------------------
+Lembrando que o github hospeda apenas sites
+feitos em javascript, html e css
+
+A URL do site será sempre o usuário do seu 
+github + github.io + o nome do projeto.
+
+Por exemplo o projeto-android que eu criei, a
+URL dele é: https://danielcorte.github.io/projeto-android/
+-------------------------------------------------------------

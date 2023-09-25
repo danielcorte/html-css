@@ -1,0 +1,15 @@
+-------------------------------------------------
+CLONANDO REPOSITÓRIOS GITHUB:
+
+Para clonar um repositório é muito simples,
+basta ir até aonde o repósito está e fazer 
+a seguinte sequencia:
+
+Clica no botão "CODE" 
+
+Após isso temos duas opções, baixar a versão
+zip ou abrirmos o repositório com o github
+desktop, com a segunda opção ele vai abrir o 
+programa e pedir um endereço para baixar os 
+arquivos
+-------------------------------------------------
