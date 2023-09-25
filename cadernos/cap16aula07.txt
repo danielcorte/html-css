@@ -1,0 +1,16 @@
+Podemos criar bordas personalizadas através de imagens 80x80,
+para fazer isso criamos o border normalmente e na cor colocamos
+transparente, após isso usamos as 3 tags para fazer essa borda
+personalizada, dessa forma:
+
+border: 12px solid transparent
+padding: 10px
+border-image-source: url('borda.png');
+border-image-slice: 27;
+border-image-repeat: repeat;
+
+ou podemos usar o shorthand: e ai ficaria dessa forma:
+
+border: 12px solid transparent
+padding: 10px
+border-image: url('borda.png') 27 repeat;

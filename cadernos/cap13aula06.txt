@@ -1,0 +1,29 @@
+Para criar uma configuração global nas CSS 
+basta apenas criar um seletor com asterísco,
+por exemplo:
+
+* {
+   height: 100%
+}
+---------------------------------------------
+Para criar um degradê em CSS temos que usar
+a função background-imagem: linear-gradient(TO TOP ou TO BOTTOM ou TO LEFT ou TO RIGHT,
+agora aqui inserimos quantas cores quisermos para fazer o degrade);
+e usamos o background-attachment: fixed; para manter o fundo fixo
+
+background-image: linear-gradient(to top, #6D59C0, #B93590, #FDD579 , #89F0CC 90%);
+background-attachment: fixed;
+----------------------------------------------
+Ao invés de usarmos TO BOTTOM, TO TOP,
+ TO LEFT ou TO RIGHT, no lugar podemos
+colocar o degrade por angulo,
+ por exemplo 45deg, 90deg, 30deg
+---------------------------------------------
+tambem existe o radial-gradient para criar
+ o degrade através de formas geométricas
+por exemplo o circle, assim o degrade
+ fica em forma de circulo
+--------------------------------------------
+Tambem do lado da cor podemos colocar do lado da cor
+uma porcentagem, que vai ser a porcentagem que ela 
+ocupa dentro do fundo

@@ -1,0 +1,13 @@
+Fazemos a sombra a partir de um shorthand:
+
+box-shadow: x y blur espalhamento cor
+
+por exemplo:
+
+box-shadow: 1px 1px 1px 1px black
+------------------------------------------
+Também podemos usar o devtools para criar
+uma box-shadow, basta abrir ele, ir na tag
+desejada para sombra e e passar o mouse
+em cima dos 3 pontinhos que tem do lado
+e clicar em criar box-shadow

@@ -1,0 +1,51 @@
+----------------------------------------------------------
+Continuando nosso modelo de caixas na prática,
+temos as principais tags margin:
+
+margin-top: 
+margin-right: 
+margin-bottom:
+margin-left: 
+----------------------------------------------------------
+de uma forma diferente, e finalizando, temos 
+o outline
+
+outline-width: 5px;
+outline-style: dashed;
+outline-color: salmon;
+----------------------------------------------------------
+SHORTHANDS:
+
+border: width, style, color
+
+padding: 10px, 10px, 10px, 10px;
+(caso os quatro elementos sejam exatamente iguais,
+você pode informar apenas uma vez)
+padding: 10px;
+caso coloque por exemplo 2 valores 
+padding: 10px, 20px;
+o de cima e o debaixo terá o mesmo valor (10px), e esqueda
+e direita (20px)
+
+outline: width, style, color
+----------------------------------------------------------
+para centralizar algo usamos a tag auto, por exemplo
+para centralizar a margem, e deixar a box no centro:
+
+margin: 20px auto 40px auto;
+
+dessa forma, as bordas ficaram centralizadas porém a 
+parte de cima e debaixo eu ajustei manualmente
+----------------------------------------------------------
+Caso queira tranformar um box-level em inline-level:
+display:inline;
+
+Caso queira transformar um inline-level em box-level:
+display:block;
+
+Por último, temos o inline-block que nada mais é que
+um inline, porém que nos possibilita alguma alterações
+como o do box-level com height, width, anatomia em geral:
+
+display:inline-block; 
+----------------------------------------------------------

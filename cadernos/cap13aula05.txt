@@ -1,0 +1,21 @@
+
+Caso navegando pela internet eu ache 
+alguma cor bonita e quiser utilizá-la,
+a diferentes formas de conseguir captura-la
+--------------------------------------------------
+GIMP:
+
+Podemos tirar um PrintScreen da tela, jogar
+a imagem no GIMP e usar a função de conta gotas
+para conseguir o código da cor, porém esse 
+método não é tão confiável pois tirando print,
+a tonalidade da cor pode acabar se alterando
+--------------------------------------------------
+ColorZilla:
+
+Outra forma é adicionando a extensão ColorZilla
+ao Chrome, assim toda vez que navegando na web
+encontrar uma cor legal e quiser utilizar ela,
+apenas preciso clicar na extensão e depois na 
+cor, e ele me dará o código da cor em Hexadecimal
+--------------------------------------------------

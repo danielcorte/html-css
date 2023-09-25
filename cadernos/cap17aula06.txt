@@ -1,0 +1,34 @@
+VARIAVEIS EM CSS:
+
+Assim como em python variáveis em css
+são usadas pra facilitar nossas vidas,
+porém em css ela é usada da seguinte
+forma, criamos uma tag :ROOT e dentro 
+dentro dela criamos as variáveis com 
+dois "--" e o nome da variável, por
+exemplo:
+
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'Android', sans-serif;
+}
+
+---------------------------------------------------------------
+relembrando também sobre variáveis globais, usamos ela criando a
+tag "*" usadas para configurar todas as tags do site com
+configurações padrões, por exemplo:
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+as margens e padding de todos os h1, h2, h3, h2, p, etc... foram zeradas

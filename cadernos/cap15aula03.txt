@@ -1,0 +1,58 @@
+-----------------------------------------
+Nessa aula tivemos a introdução as tags
+divs, que nada mais é que um espaço vazio
+que pode ser manipulável
+------------------------------------------
+As pseudo-classes são tags que apenas 
+são ativadas caso algo ocorra, por exemplo
+para a cor da letra ou do fundo mudar caso
+passe o mouse por cima, usamos a pseudoclasse
+junto com o elemento "HOVER", exemplo:
+
+div:hover {
+color: rgb(99, 182, 182);
+height: 70px;
+background-color: white;
+
+Nesse exemplo ao passar o mouse no texto
+ele aumentará o tamanho da sua box, a cor
+do fundo e da letra
+-------------------------------------------
+caso por exemplo quisermos esconder um texto
+dentro de uma div, podemos fazer da seguinte
+forma, primeiro: 
+
+<div>
+Passe o mouse aqui
+<p>TEXTO ESCONDIDO...</p>
+</div>
+
+Aqui foi criado um parágrafo dentro da div, 
+o próximo passo é na folha de CSS criar uma
+variável para deixar o parágrafo invisível,
+assim:
+
+div > p {
+            display: none;
+        }
+
+quando colocar uma tag em sequencia de outra
+dessa forma "div > p" o que vem depois é "filho"
+daquela div, dessa forma, podemos alterar qualquer
+tag dentro de outra dessa forma, necessariamente
+caso ocorra algo ou não
+----------------------------------------------------
+Veja esse esse código abaixo:
+
+div:hover > p {
+display: block;
+ color: rgb(99, 182, 182) ;
+}
+
+É uma div com hover com uma variável de paragráfo 
+dentro dela, ou seja, caso passe o mouse naquela
+div o paragráfo dentro dela ficará diferente, no
+caso do exemplo o texto escondido irá aparecer,
+por causa do (display: block;) além da cor do
+texto mudar (color: rgb(99, 182, 182) ;)
+--------------------------------------------------

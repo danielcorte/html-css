@@ -1,0 +1,50 @@
+Capítulo 13 - Aula 02: Representando Cores com CSS3
+
+O código de cores Hexadecimal é tratado da seguinte forma
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+Aonde o 0 é o mais fraco da cor, e o F o mais forte, então
+Vamos usar de exemplo o azul: 
+
+#0000ff; 
+os dois primeiros "00" significam o Vermelho 
+os dois seguintes "00" significam o Verde
+e os "ff" significam o Azul
+
+Ou seja # 00(Red) 00(Green) ff(Blue)
+
+-------------------------------------------------------------
+
+Quando usamos a função RGB(Red, Green, Blue) código das cores
+ vão de 0 até 255
+
+por exemplo o azul em RGB se faz da seguinte forma
+rgb(0, 0, 255);
+
+Ou seja rgb(0 - red, 0 - green, 255 - blue)
+
+------------------------------------------------------------
+E por último temos como colocar cor com a função HSL
+que significa (Hue, Saturation, Luminosity) ou em português,
+Matiz, Saturação, Luminosidade
+
+por exemplo a cor azul em HSL se faz da seguinte forma
+hsl(240, 100%, 50%);
+
+Ou seja hsl(240 - matiz, 100% - saturação, 50% - luminosidade)
+-----------------------------------------------------------
+E a última forma e a melhor é colocando qualquer cor e após
+isso passar o mouse em cima do quadradinho da cor e
+selecionar manualmente, pois assim podemos selecionar a cor,
+a força dela, e a sua transparência
+-----------------------------------------------------------
+Para finalizar, no final das funções RGB e HSLA pode ser 
+usado a letra A também, que significa Alpha, que calibra a 
+opacidade da cor
+
+Por exemplo no RGBA(0, 0, 255, 0.376)
+essa nova variável colocada controla a transparência da cor
+e vai de 0 até 0.933
+
+Da mesma forma o HSLA(0, 0, 255, 0.538)
+a variável da transparência igualmente ao rgb vai de 0 até
+0.933

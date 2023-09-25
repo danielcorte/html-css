@@ -1,0 +1,52 @@
+GROUPING TAGS:
+
+----------------------------------------------------------
+Header -> Cabeçalho
+A Tag header serve para indicar para os navegadores
+onde está o cabeçalho do nosso site, uma parte muito
+importante do site. Então, quando formos criar um
+cabeçalho em nossa aplicação devemos pensar em 
+usar a Tag header.
+----------------------------------------------------------
+Main -> Conteúdo principal
+O elemento <main> define o conteúdo principal dentro
+do <body> em seu documento ou aplicação. Entende-se
+como conteúdo principal aquele relacionado diretamente
+com o tópico central da página ou com a funcionalidade
+central da aplicação.
+----------------------------------------------------------
+Footer -> Rodapé
+O elemento footer marca a área inferior, normalmente
+conhecida como rodapé, do conteúdo geral do documento ou
+do conteúdo de uma seção específica a qual ele está
+subordinado.
+----------------------------------------------------------
+Nav -> Navegação
+O Elemento HTML de Navegação ( <nav> ) representa uma
+seção de uma página que aponta para outras páginas ou
+para outras áreas da página, ou seja, uma seção com links
+de navegação.
+----------------------------------------------------------
+Section -> Sessão
+A tag section é utilizada para marcar as seções de
+conteúdo de uma página. Com Esse elemento agrupamos
+de forma lógica nosso conteúdo, separando a informação
+em áreas diferentes. O principal objetivo é retirar essa 
+responsabilidade das divs.
+----------------------------------------------------------
+Article -> Artigo
+O elemento <article> é uma espécie de <section>
+especializada; ele possui um valor semântico mais
+específico do que o valor semântico de <section> no
+sentido de ser um bloco de conteúdos relacionados
+independente e autossuficiente. Podemos usar <section>,
+mas usando <article> estamos reforçando a semântica do
+conteúdo.
+----------------------------------------------------------
+Aside -> Conteúdo periférico a tal coisa
+O elemento HTML <aside> representa uma seção de uma 
+página que consiste de conteúdo que é tangencialmente 
+relacionado ao conteúdo do seu entorno, que poderia ser 
+considerado separado do conteúdo. Essas seções são, muitas
+ vezes, representadas como barras laterais.
+----------------------------------------------------------

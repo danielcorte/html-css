@@ -1,0 +1,48 @@
+Altura - Height
+Largura - Width
+--------------------------------------------
+Toda tag, tudo que é escrito dentro
+do site é uma caixa, e essas caixas
+tem bordas, que podem ser personalizadas
+usando o (border), a borda fica dentro do 
+elemento
+--------------------------------------------
+Caso queira aumentar o tamanho do border
+é possível usando o preenchimento, no 
+caso a tag (padding)
+--------------------------------------------
+Temos também a margem que é o espaço que 
+a box tem externamente para outros elementos
+ou outras box, tipo um "campo de força", a
+tag da margem é a (margin)
+--------------------------------------------
+Temos também o (outline) que fica dentro da 
+margem pora fora da borda, esse outline é 
+um contorno
+--------------------------------------------
+TIPOS DE CAIXA:
+
+box-level: quando uma caixa for colocada
+dentro dessa box, a nova box vai ocupar 100%
+da largura que tem, quebrando linha do 
+conteúdo anterior e quebrando linha para o 
+próximo conteúdo também.
+
+tags de exemplo:
+div, h1 - h6, p, main, header, nav, article,
+aside, footer, form, video
+
+-------------------------------------------
+
+inline-level: quando uma caixa for colocada
+dentro dessa box, ela vai apenas entrar em 
+sequência do conteúdo anterior, sem quebrar
+linha nem nada, e a caixa não ocupará a 
+largura inteira, ela ocupará apenas o 
+necessário para mostrar tudo que tem dentro
+dela e após isso o conteúdo terá sequência
+sem quebrar linha também
+
+tags de exemplo:
+span, a, code, small, strong, em, sup - sub,
+label, button, input, select

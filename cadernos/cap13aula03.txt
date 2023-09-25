@@ -1,0 +1,96 @@
+Capítulo 13 Aula 03 – Harmonia de cores
+
+*CIRCULO CROMÁTICO*
+Cores Primárias:
+Azul, Amarelo, Vermelho
+
+Cores Secundárias:
+Verde, Laranja, Violeta
+
+Cores Terceárias:
+Amarelo-Esverdeado, Amarelo-Alaranjado,
+Vermelho-Alaranjado, Vermelho-Arroxeado,
+Azul-Arroxeado, Azul-Esverdeado.
+-------------------------------------------
+Cores quentes:
+Amarelo, Amarelo-Alaranjado, Laranja,
+Vermelho-Alaranjado, Vermelho, 
+Vermelho-Arroxeado
+
+Cores frias:
+Violeta, Azul-Arroxeado, Azul, 
+Azul-Esverdeado, Verde, 
+Amarelo-Esverdeado
+-------------------------------------------
+A paleta de cores normalmente vai de 3 a 5 cores A cor primária normalmente
+é a cor principal da logo do cliente
+-----------------------------------------------------------------------------------------
+Cores complementares:
+
+A cor complementar que mais constrata com outra é a que fica no seu extremo
+oposto no círculo cromático, por exemplo:
+
+Amarelo e Violeta, Vermelho e Verde, Azul e Laranja
+-----------------------------------------------------------------------------------------
+Cores Análogas:
+
+A cor análoga ou cor "irmã", que traz certa harmonia entre si, são as cores 
+imediatamente ao lado no círculo cromático, por exemplo:
+
+Violeta, Vermelho-Arroxeado, Azul-Arroxeado
+-----------------------------------------------------------------------------------------
+Cores Análogas e uma Complementar:
+
+É a junção de um grupo de cores análogas com uma cor complementar, por exemplo:
+
+Violeta, Vermelho-Arroxeado, Azul-Arroxeado e Amarelo
+
+Laranja, Vermelho-Alaranjado, Amarelo-Alaranjado e Azul
+-----------------------------------------------------------------------------------------
+Cores Análogas Relacionadas:
+
+Duas cores Análogas mais uma cor pulando uma casinha no círculo cromático, por
+exemplo:
+
+Amarelo, Amarelo-Alaranjado, Vermelho-Alaranjado
+ou
+Amarelo, Amarelo-Alaranjado e Verde
+-----------------------------------------------------------------------------------------
+Cores Intercaladas:
+
+Cores com um contraste um pouquinho maior, é quando você quer um pouco mais de contraste
+ainda, por exemplo, você pega o amarelo de base, pula uma casinha escolhe uma cor, pula
+mais uma casinha e escolhe outra, por exemplo:
+
+Amarelo, Laranja, Vermelho ou Amarelo, Laranja, Verde
+ou
+Verde, Azul-Esverdeado, Azul-Arroxeado
+-----------------------------------------------------------------------------------------
+Cores Triádicas:
+
+Você pega uma cor de base, pula três casinhas, pega outra cor, pula mais três casinhas e 
+escolhe outra, assim formando um triângulo equilátero no circulo cromático e uma paleta
+de cores Triádicas, por exemplo:
+
+Azul, Amarelo, Vermelho
+-----------------------------------------------------------------------------------------
+Cores em Quadrado:
+
+Mesma ideia das cores triádicas, escolhe uma cor base, pula dois, mais uma cor, pula
+dois, mais uma cor, pula dois e por fim mais duas cores, assim formando uma paleta
+com quatro cores, por exemplo:
+
+Amarelo, Azul-Esverdeado, Violeta e Vermelho-Alaranjado
+-----------------------------------------------------------------------------------------
+Cores Tetrádicas:
+
+É quando você pega duas cores base, e também as suas cores complementares, assim
+formando um retângulo no círculo cromático, por exemplo:
+
+Verde, Laranja, Vermelho e Azul
+-----------------------------------------------------------------------------------------
+Monocromia:
+
+Você trabalha apenas com uma cor, porém alterando duas características, sua saturação
+e seu brilho, usando por exemplo o HSL, assim criando um degradê, podendo criar uma 
+palheta de 3 a 5 cores

@@ -1,0 +1,14 @@
+Em HTML podemos dar um id a uma
+função por exemplo ao h1, isso 
+serve para em CSS, personalizar
+algum h1 específico, por exemplo:
+
+"em HTML":
+<h1 id="principal">
+
+"depois em CSS":
+#principal {} ou 
+h1#principal {}
+----------------------------------
+Em HTML é id = em CSS é #
+Em HTML é class = em CSS é .

@@ -1,0 +1,77 @@
+a arte e a técnica de compor e imprimir
+com uso de tipos. conjunto de procedimentos
+artísticos e técnicos que abrangem as
+diversas etapas da produção gráfica 
+(desde a criação dos caracteres até a impressão
+e acabamento), esp. no sistema de impressão
+direta com o uso de matriz em relevo; imprensa.
+-----------------------------------------------
+Na tipografia das letras medimos as letras 
+minúsculas através da letra "x" minúscula e
+essa forma de medir é chama de "altura-x", tbm 
+temos a escala de medida das letras maiúsculas
+e o nome dessa escala é "altura das maiúsculas",
+também temos a medida "ascendente" que é o tanto
+que as letras minúculas vazam para cima, como 
+por exemplo as letras (b, d, i, k, l, t,) por 
+último temos a escala descendente, que é a medida
+para todas as letras que vazam suas caudas para
+baixo, como por exemplo as letras (g, Q, p, q, j)
+------------------------------------------------
+SERIFA:
+Serifa são pequenos pézinhos na parte de baixo e
+de cima das letras, criando assim uma linha
+imaginária pelo nosso cérebro, facilitando a leitura
+das palavras
+------------------------------------------------
+ANATOMIA GEOMÉTRICA:
+Temos a Haste que é dois segmentos de linha reto
+mais forte da letra, como por exemplo a letra A 
+ou a letra K, ainda usando a letra A de exemplo
+a linhazinha do meio que conecta duas hastes é 
+chamada de filete, e aí temos como exemplo a
+própria letra A e também a letra H, também temos
+o esporão que é um pezinho na letra só para não 
+deixa-lá solta, e ai de exemplo temos a letra "b"
+e a letra "d", além disso temos o Arco, e o próprio
+nome ja é autoexplicativo, como exemplo podemos usar
+as letras "n, m, u," e por ultimo temos o Terminal
+usado para letras que tem um mini bracinho, tipo a 
+letra "r" e a letra "f"
+-------------------------------------------------
+ANATOMIA HUMANIZADA:
+É quando chamamos pedaços de alguma letra por 
+alguma forma humana, como eu mesmo ja falei antes
+como por exemplo:
+Pé: A
+Barriga: b, d
+Orelha: g
+Cauda: g, Q, j
+Braço: k
+Perna: l
+Espinha: S
+Olho: Q, g
+-------------------------------------------------
+GLIFO: é uma letra, fonte é o grupo de glifos,
+também caractéres ou letras
+-------------------------------------------------
+Familia tipografica é variações de formas de letra
+dentro de uma mesma fonte, por exemplo a fonte
+comic suns, dentro dela a as familias tipograficas
+ (light, normal, semibold, bold, extrabold)
+-------------------------------------------------
+Categoria de fontes:
+Serifadas: fonte que tem uma base
+
+Sans-serif: sem serifa
+
+monoespaçadas: fontes onde as letras ocupam o mesmo
+espaço, não importa se é um l ou um O, elas tem o 
+mesmo tamanho
+
+handwriting: simula a escritura a mão, a caligrafia
+
+comemorativa/display: não obedece nenhuma caracterista
+das fontes acima, ela é uma bagunça e totalmente 
+original.
+-------------------------------------------------

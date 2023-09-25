@@ -1,0 +1,9 @@
+Nessa aula temos a introdução a ferramenta
+"Google Fonts" um site aonde podemos pesquisar
+fontes variadas
+
+link: https://fonts.google.com/
+
+na hora de importar o @import sempre fica nas 
+primeiras linhas da folha CSS, isso é uma regra
+todo @ fica no começo do código

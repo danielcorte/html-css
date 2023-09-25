@@ -1,0 +1,31 @@
+Podemos usar o border-radius, isso é
+um arredondamento das bordas de uma 
+box, e ela é configurado da seguinte 
+forma:
+
+border-radius: top right bottom left
+
+uma diferença de usar só duas medidas
+no border-radius é que não vai ser 
+
+border-radius: topbottom rightleft
+
+é de forma diferente das outras box,
+o border-radius funciona da seguinte
+forma com duas medidas:
+
+border-radius: (top-left, bottom-right)
+(top-right, bottom-left)
+
+-------------------------------------
+Podemos usar a border-radius junto
+com o box-shadow, e o legal é que o
+box-shadow segue junto com a borda
+do border-radius
+-------------------------------------
+Outra coisa legal do vídeo que não
+está no material é que uma forma de 
+medida que podemos usar é a porcentagem
+no lugar do pixel, por exemplo:
+
+box-shadow: 25px ---> 50%

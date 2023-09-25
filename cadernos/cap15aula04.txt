@@ -1,0 +1,34 @@
+Pseudoclasses determinam estado de elemento dentro da HTML
+----------------------------------------------------------
+Nessa aula aprendemos mais duas pseudoclasses, a :visited
+usado para quando um site for visitado, e a :active que 
+funciona enquanto você está com o botão pressionado clicando
+no link
+------------------------------------------------------------
+Os pseudoelementos mexem diretamente no conteúdo periférico
+do elemento, por exemplo, se todo link no final eu quero que 
+ele mostre que é um link:
+
+a::after {
+content: ' [link]';
+text-decoration: none;
+font-weight: normal;
+color: darkgrey;
+------------------------------------------------------------
+Também temos os pseudoelementos before e after, para adicionar
+algo antes e após algo, por exemplo:
+
+.especial::before {
+content: '-> ';
+
+.especial::after {
+content: ' <-';
+------------------------------------------------------------
+RELEMBRANDO:
+
+Seletores personalizados
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children

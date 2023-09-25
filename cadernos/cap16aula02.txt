@@ -1,0 +1,31 @@
+Para usar o DEVTOOLS:
+ir em especionar elemento
+ou
+clicar nos 3 pontos, mais ferramentas,
+e ir em desenvolvedor
+ou
+Ctrl+Shift+I
+------------------------------------------------
+"user agent" configuração básica de cada
+navegador
+------------------------------------------------
+para conseguir fazer "alterações" temporárias
+com o Devtools para testar algum estilo, basta
+clicar na linha de código dentro do devtools,
+após isso clicar no valor da tag que deseja e 
+ai altera tanto com a bolinha do mouse ou de
+forma manual.
+------------------------------------------------
+Tags de border:
+
+border-width: 
+border-style: 
+border-color:
+
+Tags de padding:
+
+padding-top:
+padding-right: 
+padding-bottom: 
+padding-left: 
+------------------------------------------------

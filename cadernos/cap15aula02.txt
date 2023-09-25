@@ -1,0 +1,25 @@
+id é para funções unicas
+não se pode usar o mesmo id em 
+dois h1 diferentes, vai funcionar
+porém é errado
+---------------------------------
+caso queira usar a mesma configurar 
+em dois h1 diferentes, ao invés do
+id devesse usar o class
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+! NUNCA DE NOME A SUAS CLASSES PELA FORMA
+DELAS, MAS SIM PELA FUNÇÃO!!!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+da pra um mesmo elemento ter duas classes, por
+exemplo
+
+<h1 class="principal destaque">Criando Sites com HTML e CSS</h1> 
+
+também da pra criar um elemento com um id e uma classe, 
+por exemplo:
+
+<h1 id="principal" class="destaque">
+
+porém o id se sobrepõe ao class

@@ -1,0 +1,39 @@
+Para deixa uma imagem responsiva
+usamos a tag PICTURE, e dentro dela
+usamos a tag SOURCE MEDIA SRCSET 
+caso queiramos configurar uma imagem
+diferente pra uma largura máxima ou 
+mínima, no exemplo abaixo foi configurado
+uma imagem para uma largura MAXIMA, é uma
+imagem pequena e quando chega na largura 
+maxima ela é substituida por outra imagem
+maior, exemplo:
+
+<picture>
+         <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+         <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+</picture>
+
+Também podemos colocar um width de 100% na imagem para ela adptar o seu 
+tamanho dependendo do tamanho da tela e não quebrar o conteúdo, exemplo:
+
+img {
+     width: 100%;
+     }
+----------------------------------------------------------------------------------
+Em CSS podemos fazer isso com uma div também, por exemplo com a div MAIN, podemos
+colocar uma largura mínima de 280px (para não quebrar o conteúdo em uma tela pequena),
+e uma largura máxima de 800px (para o conteúdo não ficar perdido em uma tela mt grande),
+também podemos colocar MARGIN: auto; para o conteúdo ficar centralizado na tela
+exemplo:
+
+main {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+            
+      min-width: 280px;
+      max-width: 800px;
+      margin: auto;
+      }
+

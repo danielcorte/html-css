@@ -1,0 +1,18 @@
+FONTES: 
+https://www.dafont.com/pt/
+https://fonts.google.com/
+Extensão: Fonts Ninja
+
+PALHETA DE CORES:
+https://color.adobe.com/pt/create/color-wheel
+https://coolors.co/04151f-183a37-efd6ac-c44900-432534
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+Extensão: ColorZilla
+
+ICONS: 
+IconArchive
+favicon.cc
+favicon.io
+
+EMOJIS:
+emojipedia.org

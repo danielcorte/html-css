@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Filx girl';
+            src: url(Filxgirl.TTF) format('truetype');
+            font-weight: 900;
+            font-style: italic;
+            font-size: normal;
+            /* 
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        @font-face {
+            font-family: Love;
+            src: url(love\ story\ ttf.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{ font-size: 2em;
+            font-family: 'Filx girl', Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Love', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo provident voluptatibus dolores. Cupiditate animi alias consequatur voluptatum sint recusandae quos ratione, ullam nihil, qui veniam consequuntur eos eligendi tenetur sapiente?</p>
+</body>
+</html>

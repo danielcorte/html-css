@@ -1,0 +1,5 @@
+Uma ferramente muito legal para copiar fontes
+de sites que acessamos na internet é a extensão
+do google "fonts ninja", lá você tem acesso a 
+qual fonte foi utilizada, e após isso basta 
+pesquisar a fonte no "dafont" ou "googlefonts"

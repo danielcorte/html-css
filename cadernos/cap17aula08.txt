@@ -1,0 +1,40 @@
+min-width: limitar o mínimo que o site se comprime, para não quebrar o conteúdo
+max-width: limitar o máximo que o site se expande, para o conteúdo não ficar 
+muito perdido em uma tela muito grande
+
+margin: auto;
+Usamos essa tag para alinhar a div no meio da tela
+
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450); /*Usado para sombreamento da main/*
+
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+Como queremos uma borda arredondada apenas na parte debaixo, fazemos isso 
+manualmente ao invés de usar apenas um border-radius comum
+--------------------------------------------------------------------------------
+main img {
+    width: 100%;
+}
+
+
+Usamos essa tag para a imagem se adptar ao tamanho da tela, aumentando e dimi-
+nuindo conforme a tela, também para não quebrar o conteúdo
+--------------------------------------------------------------------------------
+<picture>
+         <source media="(max-width: 680px)" srcset="imagens/dan-droids-pq.png">
+         <img src="imagens/dan-droids.png" alt="Primeiro mascote do Android">
+</picture>
+
+Usamos o picture para podermos colocar mais de uma opção de imagem dependendo
+do tamanho da tela, regulando dentro do source media, tanto com max-width,
+quanto com mix-width
+--------------------------------------------------------------------------------
+HTML:
+<img src="imagens/bugdroid.png" class="pequena" alt="Bugdroid">
+
+CSS:
+main img.pequena {
+    width: 50%;      /* Usado para a imagem se regurar a 50% da tela/*
+    display: block;  /* Usado para transformar a imagem em um bloco/*
+    margin: auto;    /* Margem centralizada/*
+}

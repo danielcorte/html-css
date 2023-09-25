@@ -1,0 +1,26 @@
+------------------------------------------------------------
+Podemos criar uma paleta de cores de forma gratuita
+usando o aplicativo AdobeColor no "Disco de Cores"
+
+Também podemos extrair o tema de uma palheta de cores
+de determinada logo ou foto dentro do site, na parte 
+de "extrair tema", apenas carregando o arquivo la dentro
+
+link: https://color.adobe.com/pt/create/color-wheel
+------------------------------------------------------------
+Outra alternatina muito legal é usar o site Paletton
+dentro dele podemos criar também palheta de cores como
+no AdobeColors, porém um diferencial desse site é que
+ele nos da um Preview do nosso site com aquela 
+determinada palheta de cores, nos dando uma idéia ja
+de como ficará o site
+
+link: https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+------------------------------------------------------------
+Por último temos o site Coolors, que é um gerador de 
+palheta de cores aleatórias, assim, caso esteja começando
+do zero e não tenha idéia de por onde começar, lá é um 
+ótimo local para ter bons exemplos
+
+link: https://coolors.co/04151f-183a37-efd6ac-c44900-432534
+------------------------------------------------------------

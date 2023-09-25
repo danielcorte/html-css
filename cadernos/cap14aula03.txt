@@ -1,0 +1,9 @@
+Na hora de criar um font-family: é interessante escolher 
+mais de um tipo de fonte e no final escolher um estilo
+de fonte genérica da família de fontes que você deseja
+pois dependendo do dispositivo que o site for aberto 
+ele pode não ler certo tipo de fonte então é bom
+criar um web safe combinations
+---------------------------------------------------------
+E para isso o site w3schools pode te ajudar
+link: https://www.w3schools.com/cssref/css_websafe_fonts.php

@@ -1,0 +1,17 @@
+Um novo site para pesquisar fontes é o "dafont"
+
+link: https://www.dafont.com/pt/
+-----------------------------------------------
+Após entrar no site e baixar a fonte, você extrai 
+o arquivo .ttf e joga dentro da pasta do site
+após fazer isso cria um @font-face com no mínimo 
+as configurações 
+ font-family: 'aqui você coloca como a fonte sera chamada';
+ src: url(aqui você coloca o nome do arquivo da fonte) format('e aqui o formato dela');
+
+Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg

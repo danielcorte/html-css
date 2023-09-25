@@ -1,0 +1,13 @@
+Medidas Absolutas:
+cm, mm, in(polegada), px, pt(ponto), pc(paica)
+
+Medidas relativas:
+em - Medida relativa ao tamanho atual da fonte (M maiúsculo)
+ex - Medida relativa a altura x da fonte
+rem - Tipo o em, porém relativo ao root configurada no body
+vw - medida em relação a largura da viewport, tamanho da sua tela (viewwidth)
+vh - medida em relação a altura da viewport, tamanho da sua tela (vieweight)
+% - medida por porcentagem da tela
+------------------------------------------------------
+A W3C recomenda usar a medida absoluta Pixel(px),
+e a altura relativa EM

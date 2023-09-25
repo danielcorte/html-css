@@ -1,0 +1,47 @@
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-color: var(--cor4);
+    height: 150px;                         
+    text-align: center;
+    padding-top: 40px;                        /*Espaço entre o header do top do site/*
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;                    /*Espaço entre o h1 e o p/*
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;                
+    padding-right: 10px;                     /*Adiciona espaços pra quando o conteúdo ficar pequeno não grudar nas laterais/*
+    padding-left: 10px;
+    margin: auto;                            /*assim que coloca uma largura, o P vira um bloco, então pra centralizar precisa fazer isso/*
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.445);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;         /*tira o underline/*
+    font-weight: bold;
+    transition-duration: 0.5s;     /*criar uma transição entre o nav normal e o nav hover/*
+}
+
+nav > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor5);
+}

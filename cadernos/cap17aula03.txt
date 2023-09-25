@@ -1,0 +1,15 @@
+O primeiro passo para a criação de um bom site é
+o planejamento dele, precisamos planejar três 
+coisas: o layout, as cores e as fontes que serão
+usadas:
+
+MOCKFLOW:
+Ele é usado para o planejamento do layout
+
+ADOBECOLOR:
+Usado para planejar as cores do site
+
+GOOGLEFONTS:
+Usado para a aplicação das fontes 
+
+------------------------------------------------ 

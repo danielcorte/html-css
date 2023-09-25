@@ -1,0 +1,14 @@
+Para darmos estilo a um texto normalmente
+usamos quatro configurações:
+
+font-style: O estilo da fonte, "italic" por exemplo
+font-weight: O peso da fonte, a grossura dela, pode ser calculada de 100 - 900 ou, lighter normal bold bolder
+font-family: A familia da fonte, por exemplo Times New Roman, Arial, etc
+font-size: O tamanho da fonte, medido em px, em ou outros
+
+podemos agrupar tudo isso dentro de um shorthard, que ficaria assim
+
+font: bold 2em 'Times New Roman', Times, serif;
+
+o shorthand do font é feito em ordem, como eu coloquei acima:
+font-style, font-weight, font-family, font-size
