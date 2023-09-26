@@ -1,0 +1,72 @@
+----------------------------------------------------------------
+FUNDO003:
+
+div.bloco {
+            background-image: url('imagens/wallpaper002.jpg');
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 15px;
+        }
+
+        div#q1 {
+            background-position: left top;
+        }
+
+        div#q2 {   
+            background-position: left center;
+        }
+
+        div#q3 {
+            background-position: right bottom;
+        }
+
+        div#q4 {
+            background-position: center center;
+        }
+
+no  background-position: colocamos duas coordenadas
+da onde sera o ponto de partida da nossa imagem, por
+exemplo a div#q1: a imagem tera seu ponto de partida
+da esquerda em cima para direita embaixo
+
+e vice versa como por exemplo na div#q3 começa na 
+direita embaixo e vai subindo para a esquerda em cima
+
+e tempos outro exemplo que é a div#q4, aonde o ponto 
+de partida é exatamente o centro, então a imagem se 
+expande para todos os lados igualmente
+----------------------------------------------------------------
+FUNDO004: 
+
+body {
+      height: 98vh;
+      border: 1px dashed black;
+      background-image: url('https://gustavoguana
+      bara.github.io/html-css/imagens/mascote.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      }
+
+aqui temos a primeira aparição da nova forma de medir
+que é o vh por exemplo no height:98vh
+
+O que é VH em CSS?
+Seguindo a ideia o Vh é V = view, H = height que
+significa altura, então 100vh é toda altura visível
+do seu navegador. Portanto, por ser uma medida 
+relativa, ela depende da altura(vh) ou largura(vw)
+visível do navegador para definir uma medida.
+----------------------------------------------------------------
+FUNDO005:
+
+body {
+      height: 97vh;
+      background-image: url('imagens/wallpaper003.jpg');
+      background-position: center center;
+
+      }
+
+Aqui temos outro exemplo do "view height" sendo utilizado
+----------------------------------------------------------------

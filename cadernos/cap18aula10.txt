@@ -1,0 +1,48 @@
+---------------------------------------------
+GITHUB EM VARIOS PCS:
+
+Programas que devem estar instalados:
+Navegador, VS Code, Git, Github Desktop
+---------------------------------------------
+Como entrar na sua conta em outro PC:
+
+File -> Options -> Accounts -> Sign in
+
+Após isso coloca sua conta do github
+---------------------------------------------
+Após isso realizar a seguinte coisa:
+
+File -> Options -> Git -> clica no 
+user name, no email, e em save
+
+Isso serve para não dar problema na hora
+de clonar os projetos
+---------------------------------------------
+E aí para finalizar você clica no 
+projeto que você deseja clonar e depois
+no botão azul embaixo escrito clone e 
+o nome do projeto
+---------------------------------------------
+após isso escolhemos o diretório aonde
+o projeto será clonado 
+---------------------------------------------
+INDO EMBORA SEM DEIXAR RASTROS:
+
+Repository -> Remove -> Also move this
+repository to Recycle Bin > Remove
+
+Isso irá excluir os projetos em que você
+estava trabalhando.
+
+E para deslogar a conta: 
+
+File -> Options -> Account -> Sign Out =
+ deslogar da conta github
+
+File -> Options -> Git -> Apagar o nome e o email -> Save
+
+Esvaziar a lixeira.
+
+Pronto, todos os dados estão
+ protegidos e assegurados
+---------------------------------------------
