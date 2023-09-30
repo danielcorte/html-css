@@ -1,0 +1,17 @@
+BACKGROUND ATTACHMENT E SHORTHAND:
+
+background attachment: fixed
+O fundo fica fixo mesmo com a rolagem
+de tela
+
+background-attachment: scroll
+O fundo rola junto com o scroll da 
+tela
+----------------------------------------
+             Shorthand - background
+Color > image > position > repeat > [size] > attachment
+
+background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+
+O background-size ainda não funciona dentro
+da shorthand, deve ser colocada a parte

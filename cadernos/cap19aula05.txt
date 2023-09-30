@@ -1,0 +1,14 @@
+------------------------------------
+MUDANDO O TAMANHO DA IMAGEM DE FUNDO
+
+background-size: cover;
+
+Ele cobre 100% do fundo, mesmo que
+pra isso tenha que corta a imagem
+------------------------------------
+background-size: contain;
+
+Ele mostra a imagem inteira, mesmo 
+que pra isso tenha que adicionar 
+algumas barras laterais
+------------------------------------
