@@ -62,8 +62,12 @@ main p {
     
 }
 
+section {
+    box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.644);
+}
+
 section#butterfly {
-    background: url('imagens/background001.jpg') center no-repeat fixed;
+    background: url('imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
     height: auto;
     padding-top: 10vh;
@@ -73,7 +77,7 @@ section#butterfly {
 }
 
 section#book {
-    background: url('imagens/background002.jpg') center no-repeat fixed;
+    background: url('imagens/background002.jpg') right center no-repeat fixed;
     background-size: cover;
     height: auto;
     padding-top: 10vh;
@@ -82,7 +86,7 @@ section#book {
     padding-left: 30px;
 }
 p.imagem {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.514);
     color: white;
 
 }
