@@ -1,0 +1,5 @@
+Ainda podemos usar tabelas em HTML?
+
+Usar tabelas para criar sites? NÃO
+
+Usar tabelas como uma ferramenta dentro do site para mostrar dados? COERENTE

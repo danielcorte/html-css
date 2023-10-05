@@ -1,0 +1,17 @@
+----------------------------------------------------
+Sua primeira tabela em HTML:
+
+HIERARQUIA DE TABELAS (simples)
+        TABLE = tabela --> <table></table>
+
+            TABLE ROW = linha de tabela --> <tr></tr>
+
+                TABLE HEADER = cabeçalho de tabela --> <th></th>
+
+                TABLE DATA = dado de tabela --> <td></td>
+----------------------------------------------------
+O HTML permite a opção de não fechar as tags de tabela,
+porém é muito perigoso pois se você não se atentar na 
+hierarquia da tebela, e colocar algum elemento em qualquer
+lugar errado, vai bagunçar toda a tabela, então é de suma
+recomendação abrir e fechar as tags.

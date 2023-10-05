@@ -1,0 +1,13 @@
+Segundo o W3C:
+
+Uma tabela deve ser feita semanticamente com:
+
+TABLE
+	CAPTION
+	THEAD
+		TR, TD, TH
+	TBODY
+		TR, TD, TH
+	TFOOT
+		TR, TD, TH
+

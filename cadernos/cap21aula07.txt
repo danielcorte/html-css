@@ -1,0 +1,20 @@
+CABEÇALHO FIXO EM TABELAS GRANDES:
+
+Podemos prender o título para ele 
+ficar aparente conforme a rolagem
+da tabela, é muito útil para 
+tabelas muito grandes aonde podemos
+acabar nos perdendo em relação ao 
+o que cada coluna significa, como
+fazer isso?
+
+Exemplo do exercício: 
+
+table {
+       position: relative;          /*Para deixar a posição da tabela como relativa*/
+       }
+
+thead > tr > th {
+           position: sticky;        /*Mudar a posição do topo da tabela*/
+           top: -1px;               /*Pra ele colocar no topo da pagina*/
+           background-color: gray;  /*Para resolver o problema do texto flutuante*/

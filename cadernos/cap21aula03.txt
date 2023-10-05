@@ -1,0 +1,14 @@
+-------------------------------------
+Alinhando o conteúdo em tabelas:
+
+Alinhamento horizontal:
+td {
+     text-align: left, center, right;
+     }
+-------------------------------------
+
+Alinhamento vertical:
+td {
+     text-align: top, middle, bottom;
+     }
+-------------------------------------

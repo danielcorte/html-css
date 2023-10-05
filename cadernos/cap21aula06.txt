@@ -1,0 +1,20 @@
+----------------------------------------
+Efeito Zebrado na tabela com HTML e CSS:
+
+Fazemos o efeito zebrado em uma tabela 
+usando em css a tag: 
+
+tr:nth-child(odd, even) 
+odd = 2n-1 / even = 2n
+
+Exemplo na prática usado no meu
+exercício:
+
+tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: lightgray;
+        }
+
+tbody > tr:nth-child(even) { /* 2n */
+      	    background-color: white;
+        }
+----------------------------------------

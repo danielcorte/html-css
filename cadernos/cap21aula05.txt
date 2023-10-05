@@ -1,0 +1,28 @@
+----------------------------------------
+Caption e Escopo de títulos em tabelas:
+
+Em HTML usamos o escopo para indicar a 
+qual grupo certo título pertence e etc,
+por exemplo:
+
+se um título pertence e faz menção a 
+uma coluna, então usamos: 
+
+scope="col"
+
+----------------------------------------
+
+se um título pertence e faz menção a 
+uma linha, então usamos:
+
+scope="row"
+
+----------------------------------------
+CAPTION: 
+
+O caption é uma forma semântica de dar 
+um título a uma tabela, por exemplo: 
+
+<caption>Lista de unidades federativas
+do Brasil por população</caption>
+----------------------------------------

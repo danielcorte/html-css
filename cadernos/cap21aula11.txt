@@ -1,0 +1,37 @@
+---------------------------
+Escopos de grupo:
+
+Nós ja aprendemos sobre como
+funciona o scopo, tanto o row
+como o col, mas também existe
+o rowgroup e o colgroup. Para
+que eles são usados? simples:
+
+Quando um th é título de mais
+de uma linha ou de mais de 
+uma coluna, usamos o group, 
+por exemplo:
+-------------------------------
+          FILMES
+Alien     Rambo     Vingadores
+Hulk      Inception Batman
+-------------------------------
+Nesse caso de tabela vamos usar
+o scope="colgroup" pois o título
+filmes da significado a três 
+colunas diferentes, assim sendo 
+um grupo.
+
+Outro exemplo:
+
+-------------------------------
+          Ana Maria  Alien
+	  Vitória    Hulk
+MULHERES  Emilly     Wall-E
+	  Beatriz    Avengers
+-------------------------------
+Nesse caso de tabela vamos usar
+o scope="rowgroup" pois o título
+MULHERES da significado a quatro 
+linhas diferentes, assim sendo 
+um grupo.

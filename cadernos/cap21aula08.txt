@@ -1,0 +1,28 @@
+-------------------------------
+Mesclagem de células:
+
+Podemos mesclar células, 
+fazendo um único dado ocupar
+mais de uma coluna ou mais 
+de uma linha, para isso 
+usamos as seguintes tags: 
+
+Mesclagem de linha:
+
+rowspan="quantidade de células 
+que deseja mesclar"
+
+Mesclagem de coluna:
+
+colspan="quantidade de células
+que deseja mesclar"
+-------------------------------
+
+Exemplo de exercício:
+
+<tr>
+	<td rowspan="3">D</td>
+	<td>E</td>
+	<td rowspan="2">F</td>
+</tr>
+-------------------------------
