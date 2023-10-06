@@ -1,0 +1,28 @@
+---------------------------------------
+Tabelas responsivas:
+
+Para criar tabelas responsivas é
+muito simples, basta envelopar
+toda o <table> com uma <div>, de 
+preferência usando um id, e após
+isso, em CSS usar a função overflow,
+temos as seguintes variações:
+
+overflow:   --> rolagem x e y
+overflow-x: --> rolagem x
+overflow-y: --> rolagem y
+
+e dentro dessa função temos três
+configurações diferentes
+
+:scroll
+:hidden
+:auto
+
+exemplo:
+
+div#container {
+	overflow-x: auto;
+	}
+---------------------------------------
+ 

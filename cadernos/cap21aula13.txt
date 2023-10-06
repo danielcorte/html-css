@@ -1,0 +1,64 @@
+--------------------------------------------------------
+Agrupando Colunas com colgroup:
+
+Em CSS, quando queremos personalizar
+uma coluna inteira, geralmente teriamos 
+que ir linha por linha e editar manualmente
+para acabar editando a coluna inteira.
+Porém agora no HTML5 é possível fazer isso
+de uma forma bem mais rápida e eficiente, 
+dentro da tag <table>, criamos uma tag 
+chamada <colgroup> dentro dessa tag, cada
+<col> corresponderá a uma coluna da tabela
+respectivamente, por exemplo:
+
+<colgroup>
+        <col class="cnome">
+	<col class="cprof">
+</colgroup>
+
+        <caption>Cadastro</caption>
+
+<tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Profissão</th>
+</tr>
+--------------------------------------------------------
+O primeiro <col> corresponde a primeira coluna,
+o segundo <col> a segunda coluna, e assim por 
+diante. 
+Também é possível criar um colgroup que atenda
+as necessidades de duas colunas próximas uma 
+do lado da outra, por exemplo se adicionarmos
+mais duas tabela nesse nosso código de exibição
+e quisermos que elas tenham a mesma personalização,
+podemos usar a tag <span> dentro da tag <col>, e 
+dependo do número que colocarmos na variável, será
+o tanto de colunas que ela aglomerará respectivamente,
+por exemplo:
+
+<colgroup>
+        <col class="cnome">
+	<col class="cgroup" span="2"> /*Esse span sinaliza que essa class modifica duas colunas*/
+        <col class="cprof">
+</colgroup>
+
+        <caption>Cadastro</caption>
+
+<tr>
+        <th scope="col">Nome</th>
+	<th scope="col">Sexo</th>
+	<th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+</tr>
+
+Em CSS:
+
+col.cnome, col.cprof {
+	background-color: lightyellow;
+    }
+
+col.cgroup {
+	background-color: lightcoral;
+    }
+--------------------------------------------------------
