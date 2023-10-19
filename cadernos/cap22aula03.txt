@@ -1,0 +1,15 @@
+----------------------------------
+Conteúdo local no iframe:
+
+Podemos fazer um iframe com um 
+conteúdo fixo de um html, para isso
+basta dentro da tag do iframe,
+colocar um src e dentro do src o 
+endereço do arquivo html desejado,
+por exemplo:
+
+<iframe src="pag001.html"
+ frameborder="0" width="500px"
+ height="500px"></iframe>
+
+----------------------------------

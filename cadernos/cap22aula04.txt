@@ -1,0 +1,25 @@
+----------------------------------------
+Navegação no iframe:
+
+Podemos criar uma forma de navegação
+dentro dos iframes, aonde podemos 
+mudar a informação dentro de um iframe
+através dos links, fazendo o iframe 
+receber tanto o conteúdo de outro site
+como o conteúdo de um arquivo.
+
+Para fazermos isso, dentro da tag do
+iframe criamos uma tag chamado nome=""
+essa tag será usada para localizar o
+iframe. Após isso, na tag do link
+usamos a tag target com o nome daquele
+iframe, assim, ao invés do link ser 
+aberto em outro página, ele será 
+carregado dentro daquele iframe, como
+por exemplo:
+
+<li><a href="paginas-extras/pag001.html"
+ target="frame">Primeira página</a></li>
+
+<iframe name="frame">
+----------------------------------------

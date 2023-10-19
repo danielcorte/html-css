@@ -1,0 +1,36 @@
+--------------------------------------------
+Conteúdo no iframe por código:
+
+Na aula anterior criamos três links 
+que mudam o conteúdo dentro do nosso
+iframe, porém, ao carregar a página,
+ou quando ela é aberta pela primeira
+vez, a caixa do iframe está vazia, 
+para resolver esse problema, podemos
+colocar conteúdo dentro do iframe, pra
+ser como se fosse a configuração "default",
+fazemos isso dentro da tag do iframe, 
+usando a tag SRCDOC="", nela podemos 
+tanto carregar um arquivo de outro html
+quanto colocar conteúdo por código ali 
+mesmo, como no exemplo abaixo:
+--------------------------------------------
+
+<iframe name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+ Nostrum ex repellat perspiciatis sapiente laborum cum autem
+ eligendi corrupti, aliquam sunt dicta reiciendis eaque
+ veritatis alias delectus sint, accusamus, quidem placeat.
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+ Quos dicta corporis expedita officia neque beatae voluptates
+ ab nesciunt exercitationem illum. Ullam mollitia rem ex
+ molestias quisquam perspiciatis quasi. Quos, non?</p>
+
+<img src='imagens/ben10.png'>">
+
+<p>Infelizmente seu navegador não é compatível com isso.</p>
+
+</iframe>
+
+------------------------------------------------------------------
