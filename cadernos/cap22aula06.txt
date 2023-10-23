@@ -1,0 +1,45 @@
+Inconvenientes do iframe:
+
+problemas com mecanismos de busca e
+e dificuldade de indexação:
+
+os mecanismos de pesquisas usam um
+bot que vasculha os sites e determina
+sua relevância baseada no conteúdo do 
+site. Esses bots tem dificuldades em 
+adentrar o conteúdo dos iframes para 
+indexa-los no conteúdo.
+-----------------------------------------
+
+problemas de acessibilidade:
+
+pessoas que são cegas e usam programas
+de leitores de tela, esses apps podem
+ter dificuldade em ler o conteúdo de 
+um iframe também.
+-----------------------------------------
+
+problemas de usabilidade:
+
+quando é colocado um site dentro de 
+outro, muitas vezes quando o usuário
+executa alguma ação, muitos navegadores
+não conseguem identificar se aquela 
+ação é referente ao iframe ou ao site
+principal.
+
+O site pode aparecer quebrado dentro
+do iframe por não ter uma boa 
+responsividade.
+-----------------------------------------
+
+problemas de segurança:
+
+iframes abrem uma porta para outros sites,
+dessa forma nosso site fica exposto a
+ataques de terceiros, como cross site e xss
+por isso temos que ter muito cuidado ao 
+usar os iframes, é como se estivessemos 
+abrindo a porta da nossa casa para uma 
+pessoa, e nós não deixamos qualquer um 
+entrar na nossa casa.

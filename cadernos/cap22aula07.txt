@@ -1,0 +1,62 @@
+Tornando iframes mais seguros:
+
+FORMULÁRIOS:
+
+Nessa aula tivemos uma introdução a algo
+extra que foi a criação de formulários,
+até o momento não foi ensinado como funciona
+os formulários porém foi usado o exemplo 
+abaixo no exercício:
+
+<form action="cadastro.php" method="get"></form>
+	<p>
+		Nome:
+		<input type="text" name="nome" id="nome">
+                <input type="submit" value="Cadastrar">
+	</p>
+-----------------------------------------------------------
+
+SEGURANÇA:
+
+Há duas tags que são muito importantes para a segurança do
+site, e que são usadas dentro do iframe, são elas a SANDBOX
+e a REFERRERPOLICY.
+
+O Sandbox é usado para habilitar ou desabilitar certas
+funções, como por exemplo o uso de formulários, popups, 
+conteúdos de mesma origem, scripts e etc.
+
+-----------------------------------------------------------
+a variável sandbox desabilita todas essas funções tornando
+o site o mais seguro possível, já as opções são usadas para
+habilitar algo específico e o que não for colocado dentro da
+sandbox será desabilitado.
+
+sandbox="sandbox
+         allow-forms
+	 allow-modals
+         allow-pointer-lock
+         allow-popups
+         allow-popups-to-escape-sandbox
+         allow-same-origin
+         allow-scripts
+         allow-top-navigation"
+-----------------------------------------------------------
+a variável referrerpolicy tem a função de habilitar ou não
+a coleta de informações e dados do usuário, usando ela 
+dentro do iframe significa que nenhum dado de dentro do 
+iframe possa ser coletado, dessa forma nenhum terceiro
+pode roubar o dado dos seus usuários.
+
+referrerpolicy="no-referrer
+		no-referrer
+		no-referrer-when-downgrade
+		origin
+		origin-when-cross-origin
+		same-origin
+		strict-origin
+		strict-origin-when-cross-origin
+ 		unsafe-url"
+-----------------------------------------------------------
+Para mais informações:
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers/Referrer-Policy
