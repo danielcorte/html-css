@@ -1,0 +1,28 @@
+Métodos GET e POST para formulários:
+
+Existem dois métodos simples para envio de formulários,
+o método GET, que é o padrão configuração default, e o
+método POST, no GET os dados aparecem na url bem na cara
+do usuário, e no método POST ele fica um pouco mais escondido
+porém é possível acha-lo da mesma forma, nenhum desses 
+métodos é 100% seguro, para isso deve ser usar https e 
+criptografar os dados.
+
+Usamos GET quando os dados não forem sensíveis como senhas,
+número de cartão e etc, mas usado para coisas simples como:
+nome, peso, idade
+
+NÃO DA PRA USAR O GET PARA FORMULÁRIOS QUE ULTRAPASSEM
+3000BYTES = 3000 LETRAS
+
+NÃO DA PARA USAR O GET PARA FORMULÁRIOS QUE NECESSITEM O 
+ENVIO DE FOTOS OU ARQUIVOS
+--------------------------------------------------------------
+Nas situações aonde o método get não pode nos ajudar, usamos
+o método post, lembrando que na coleta de dados sensíveis como
+senhas e etc, é de extrema importância o uso de https
+e criptografia.
+
+<form method="get">
+
+</form>

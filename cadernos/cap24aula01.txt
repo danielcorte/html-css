@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+Como criar formulários com HTML5:                                               |
+                                                                                |
+Formulários são utilizados no momento                                           |
+de nos cadastrarmos em um site, ou                                              |
+quando estamos pesquisando algo, e a                                            |
+forma mais simples de um formulário é                                           |
+a seguinte:                                                                     |
+                                                                                |
+<form>                                                                          |
+                                                                                |
+        <p>Nome: <input type="text" name="nome" id="nome"></p>                  |
+                                                                                |
+        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>   |
+                                                                                |
+        <p><input type="submit" value="Enviar"></p>                             |
+</form>                                                                         |
+                                                                                |
+Tudo que estiver dentro da tag form será                                        |
+um formulário, no exemplo acima foi                                             |
+colocado duas tags <p> com um input de                                          |
+texto dentro. E para o envio do formulário                                      |
+um input do tipo "submit" ou enviar.                                            |
+-------------------------------------------------------------------------------- 

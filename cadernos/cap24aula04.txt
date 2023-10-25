@@ -1,0 +1,68 @@
+-----------------------------------------------
+Criando caixas de texto e de senha:
+
+Para criarmos uma formulário com formatação
+para senhas, basta criar um input, e no type
+ao invés de text colocamos password:
+
+<input type="password">
+
+-----------------------------------------------
+
+Uma coisa muito legal também é colocar a config
+required dentro do input, dessa forma o usuario
+só poderá enviar os dados quando todas as box
+requeridas estiverem preenchidas:
+
+<input type="password" required>
+
+-----------------------------------------------
+
+Atrelado a config required, tem duas variáveis
+muito legais que são a "required minlength" e a
+"required maxlength" dessa forma colocamos um 
+limitador de caractéres mínimos e máximo para a
+criação do cadastro, dessa forma padronizando
+melhor os dados:
+
+<input type="text" required minlength="5" maxlength="30">
+
+-----------------------------------------------
+
+É possível dentro do HTML5 modificar o tamanho
+da box aonde será colocado os dados, e 
+dependendo do tamanho dela, acabará tendo ou 
+não rolagem lateral, a forma de configurar é 
+bem simples: 
+
+<input size="10">
+
+O número colocado dentro é a quantidade de 
+caractéres que será vizualidado antes de iniar
+uma rolagem lateral.
+
+-----------------------------------------------
+
+Também é possível deixar um exemplo de dado
+dentro da box para ajudar o usuário, e a dica
+some assim que o usuário clicar para colocar 
+seus dados: 
+
+<input placeholder="mínimo 8 letras">
+
+----------------------------------------------
+
+É possível fazer diferentes configs para o 
+autocomplete, dessa forma deixando o site com
+uma melhor semântica, fazemos isso deixando 
+o autocomplete on, e dentro de cada input 
+sinalizamos que tipo de dado ele está
+requerindo, segue abaixo o exemplo: 
+
+<label for="iusu">Usuário: </label>
+<input type="text" id="iusu" autocomplete="username">
+
+<label for="isen">Senha: </label>
+<input type="password" id="isen" autocomplete="current-password">
+
+----------------------------------------------

@@ -1,0 +1,56 @@
+-------------------------------------------------------------
+Usar Label vai melhorar seus formulários:
+
+Como desligar o autocomplete do form:
+
+O autocomplete nada mais é do que o form
+te dar sugestões de dados que você já 
+colocou antes, para desligar essa opção
+basta dentro da tag form colocar a 
+configuração autocomplete="off", por 
+exemplo:
+
+<form autocomplete="off">
+
+</form>
+
+-------------------------------------------------------------
+Para onde vamos mandar os dados do formulário?
+
+Também dentro do form criamos a configuração
+action que sera ativada assim que dermos submit
+em um formulário (enviarmos os dados para o site)
+o action serve para fazer as transferências de 
+dados, por exemplo:
+
+<action action="cadastro.php" autocomplete="off">
+
+</action>
+-------------------------------------------------------------
+
+Lables ou Etiquetas:
+
+Todo input deve ter um nome e ser identificado
+
+name: usado para html e php
+id: javascript e lable
+
+Para colocarmos lables nos identificadores dos
+nossos inputs e o algorítmo dos sites
+reconhecerem a ligação entre eles, devemos
+envelopar nossos inputs com a tag label e na
+configuração "for" colocamos o id do respectivo
+input, por exemplo: 
+
+<form action="cadastro.php" autocomplete="off">
+ 
+	<p> <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome"></p>
+
+        <p> <label for="isobrenome">Sobrenome:</label>
+         <input type="text" name="isobrenome" id="sobrenome"></p>
+
+        <p><input type="submit" value="Enviar"></p>
+</form>
+-------------------------------------------------------------
+USE SEMPRE LABEL!!!
