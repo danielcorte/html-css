@@ -1,0 +1,36 @@
+Checkbox e Radio button em HTML:
+
+Checkbox funciona como qualquer 
+outro elemento de formulário, a 
+diferença é que pra deixar uma 
+opção já pré-definida, no lugar 
+de usar o placeholder, se usa a 
+config "checked":
+
+<input type="checkbox" name="esfut"
+id="iesfut" CHECKED> <label for="iesfut">Futebol</label>
+
+-----------------------------------
+Já o Radio button de escolher entre
+uma opção ou outra, tem uma certa 
+peculiaridade, se você usar nomes
+diferentes para as opções, quando 
+você clicar na opção, não terá como
+trocar depois, além de que o site 
+não ira reconhecer que aquelas 
+opções estão interligadas, por isso
+é necessário nas opções do radio button
+colocar o mesmo nome, pode ter IDs
+diferentes, porém o nome tem que ser
+o mesmo:
+
+<fieldset>
+
+        <legend>Sexo</legend>
+
+        <input type="radio" name="SEXO" id="ismas" value="M"> <label for="ismas">Masculino</label>
+
+
+        <input type="radio" name="SEXO" id="isfem" value="F"> <label for="isfem">Feminino</label>
+
+    </fieldset>

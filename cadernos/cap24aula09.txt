@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+Elementos color, range e file em HTML:
+
+COLOR:
+Funciona como os outros elementos do formulário, a diferença
+é que para colocar um valor pré-definido usamos o 
+value="#00ff00" e o código da cor.
+
+
+RANGE:
+A barra do range tem valor que vai de 0 a 100, porém é 
+possível manipular o recebimento desses dados, por exemplo,
+a config default o navegador recebe valores que podem ir
+de 0 até 100, porém como visto no exemplo abaixo é 
+possível alterá-lo para receber valores de 1 a 10:
+
+<label for="inivel">Nível de Satisfação:</label>
+	<input type="range" name="nivel" id="inivel" min="1" max="10" value="8">
+
+
+FILE:
+A única peculiaridade do file é que quando ele for utilizado
+o method do form tem que ser o post e não o get
+
+<form action="cadastro.php" method="POST" autocomplete="on"></form>
+
+<label for="ifoto">Foto do perfil:</label>
+      <input type="file" name="foto" id="ifoto">
+--------------------------------------------------------------------------------
+
