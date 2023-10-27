@@ -1,0 +1,80 @@
+----------------------------------------------------------
+Select, datalist e textarea em HTML:
+
+
+SELECT:
+A tag select é um elemento que você clica e desce uma
+lista, dentro dela usamos a tag "option", com as opções que
+terão dentro da lista. Podemos agrupar os options com a
+tag "optgroup" assim separando opções que pertencem a 
+certo tipo de grupo, como no exemplo abaixo:
+
+
+<select name="estado" id="iest">
+
+<optgroup label="Região Sul">
+	<option value="RS">Rio Grande do Sul</option>
+        <option value="SP">São Paulo</option>
+        <option value="MG">Rio de Janeiro</option>
+</optgroup>
+
+            <optgroup label="Região Sudeste">
+	<option value="MG">Minas Gerais</option>
+ 	<option value="SP">São Paulo</option>
+	<option value="MG">Rio de Janeiro</option>
+</optgroup>
+
+            <optgroup label="Região Centro-Oeste">
+	<option value="MS">Mato Grosso do Sul</option>
+	<option value="GO">Goiás</option>
+	<option value="MT">Mato Grosso</option>
+</optgroup>
+
+            <optgroup label="Região Nordeste">
+	<option value="BA">Bahia</option>
+	<option value="CE">Fortaleza</option>
+	<option value="PE">Pernambuco</option>
+</optgroup>
+
+            <optgroup label="Região Norte">
+	<option value="AC">Acre</option>
+	<option value="AM">Amazonas</option>
+	<option value="RR">Roraima</option>
+</optgroup> 
+</select>
+----------------------------------------------------------
+DATALIST:
+O datalist funciona como um select porém ele te da a 
+opção de escrever algo que não está dentro da lista, 
+dessa forma abrangendo as opções do usuário, ele funciona
+junto com um input e é feito da seguinte forma, criamos
+um input de text normal, e no id dele colocamos o mesmo 
+id do datalist que virá logo em seguida, e dentro do 
+datalist colocaremos as opções disponíveis, caso nenhuma
+delas se adeque ao usuário ele poderá digitar por conta 
+própria o que lhe representa, exemplo:
+
+<label for="iprof">Profissão: </label>
+	<input type="text" name="prof" id="iprof" list="lstprof">
+
+	<datalist id="lstprof">
+                
+		<option value="DEV">Desenvolver</option>
+                <option value="REP">Reporter</option>
+                <option value="MED">Médico</option>
+                <option value="ENG">Engenheiro</option>
+                <option value="ADV">Advogado</option>
+
+	</datalist>
+----------------------------------------------------------
+TEXTAREA:
+O textarea é um formulário aonde o usuário pode deixar
+uma mensagem de um tamanho limitado pelo programa, 
+através de linhas e colunas, como no exemplo: 
+
+<label for="imsg">Mensagem: </label> <br>
+
+<textarea name="msg" id="imsg" cols="30" rows="10">
+
+</textarea>
+----------------------------------------------------------
