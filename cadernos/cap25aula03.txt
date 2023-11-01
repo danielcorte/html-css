@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------------------------
+Múltiplas Media Features com CSS:
+
+Media Query:
+É a mesma coisa que media type + media feature
+
+Media Feature:
+
+Os media features são colocados dentro da tag
+media="" no link de css no head elas são 
+colocadas acompanhas de um and e ficam dentro
+de parentêses aonde colocamos a orientation:
+e o modo de media que ela serve, por exemplo
+
+<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+
+<link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
+--------------------------------------------------------------------------------------------------

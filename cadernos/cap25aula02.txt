@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Criando um site com versão para impressora:
+
+Para criarmos media queries é muito simples,
+no momento que criamos um link:css dentro do
+head, no final da linha de código colocamos
+a tag media="" e dentro de media colocamos 
+para qual tipo de media aquela folha de css
+deve ser aplicada, como nos exemplos abaixo:
+
+<link rel="stylesheet" href="estilos/tela.css" media="screen">
+<link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+Aqui temos um estilo para telas e um para impressoras, dessa forma
+o site terá diferentes estilos dependendo da necessidade.
+
+----------------------------------------------------------------------

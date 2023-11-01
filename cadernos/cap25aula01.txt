@@ -1,0 +1,12 @@
+--------------------------------------------------
+O que são Media Queries em CSS:
+
+As Media queries são utilizadas para termos 
+diferentes configurações de site dependo do
+tamanho da tela, para que ele possa se adequar
+a melhor forma possível ao tamanho da tela,
+são lugares diferentes aonde podemos exibir
+nosso conteúdo. Temos diferentes tamanho de 
+telas para computador, celulares e tvs
+
+--------------------------------------------------
