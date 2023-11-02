@@ -1,0 +1,43 @@
+-----------------------------------------------------------------------
+Reunindo tudo em um único CSS:
+
+É possível colocar todas as configurações de tipos de tela,
+dentro de um mesmo css, através do media screen, ele 
+funciona da seguinte forma, usamos o elemento @screen, e 
+dentro dele colocamos todo as configurações de css que 
+queremos, podemos colocar variações tanto de medidas exatas
+para tela como também para configurações mais gerais como 
+retrato e paisagem, exemplo:
+
+
+
+
+/*Declarações de Paisagem*/
+    
+@media screen and (orientation: portrait) {
+            
+	body {
+        
+		background-image: url('../imagens/cev-landscape.jpg');
+                background-position: left bottom;
+        
+	}
+}
+
+-----------------------------------------------------------------------
+        
+/*Declarações de Retrato*/
+        
+@media screen and (orientation: landscape) {
+    
+	body {
+    
+		background-image: url('../imagens/cev-portrait.jpg');
+                background-position: center bottom;
+    
+	}
+}
+
+-----------------------------------------------------------------------
+
+         
