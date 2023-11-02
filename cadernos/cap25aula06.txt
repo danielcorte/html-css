@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------
+Mobile First:
+
+Mobile First em tradução livre significa "dispositivo móvel em primeiro
+lugar". Com essa estratégia, todo projeto a ser desenvolvido tem em seu
+foco a usabilidade em dispositivos móveis primeiro. O foco no mobile é
+importante nos dias atuais, já que praticamente tudo é feito por celular.
+Portanto, desde o design até o desenvolvimento das funcionalidades,
+tudo é pensado para o mobile e depois adaptado para o desktop.
+
+--------------------------------------------------------------------------
+vantagens:
+
+Otimização para dispositivos móveis
+Ao projetar com o “mobile first” em mente, garante-se que o aplicativo
+ou site seja otimizado para ser usado em dispositivos móveis, oferecendo
+uma experiência fluida e eficiente para os usuários.
+
+
+desvantagens:
+
+A principal barreira do mobile-first no design é a limitação criativa
+do projeto. A dificuldade de criar numa tela pequena, desprovido de
+muitas possibilidades de animações, hovers e transições atrapalha
+bastante o início do processo e é um desafio para designers que estão
+acostumados a fazer o caminho inverso.
+
+--------------------------------------------------------------------------
+De forma simpes, o mobile-first é uma abordagem para o design responsivo:
+primeiro design para telas menores, e depois adicione mais recursos e
+conteúdo conforme as telas ficam maiores. Esta abordagem de design
+também é conhecida como “aprimoramento progressivo”.
+
+--------------------------------------------------------------------------
