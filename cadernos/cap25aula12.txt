@@ -1,0 +1,48 @@
+Utilização de JavaScript:
+
+uso de javascript para fazer um menu hamburguer funcional:
+
+-------------------------------------------------
+<body onresize="mudouTamanho">
+
+<script>
+        
+        function mudouTamanho() {
+
+            if (window.InnerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+
+        }
+
+    </script>
+
+Esse código deixa o menu responsivo e corrige o 
+bug do menu sumir caso você interaja com o menu
+hamburguer e depois aumente a tela para o tamanho
+padrão
+
+----------------------------------------------------------------------
+<i class="material-icons" id="burguer" onclick="clickMenu()">menu</i>
+
+	<menu id="itens">
+
+<script>
+
+        function clickMenu() {
+
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+        }   else {
+
+            itens.style.display = 'block'
+            }
+        }
+        
+    </script>
+
+Esse código cria a ação de interação ao clicar no menu abrindo e 
+fechando ele, mostrando suas opções.
+----------------------------------------------------------------------
